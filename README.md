@@ -25,18 +25,38 @@ AI Resume Screener is a Streamlit web application that helps job seekers optimiz
 ## 🖥️ App Screenshots
 
 ### Home Page
+The main interface with sidebar info, resume upload (PDF or text), and job description input.
+
 <p align="center">
-  <img src="screenshots/home_page.png" alt="Home Page" width="800"/>
+  <img src="screenshots/01_home_page.png" alt="Home Page" width="800"/>
 </p>
 
-### Analysis Results
+### Upload Resume & Job Description
+Upload your resume as PDF and paste the job description to analyze.
+
 <p align="center">
-  <img src="screenshots/results.png" alt="Analysis Results" width="800"/>
+  <img src="screenshots/02_upload_resume.png" alt="Upload Resume and Job Description" width="800"/>
 </p>
 
-### Skills Breakdown
+### Analysis Results & Skills Breakdown
+Overall match score with semantic, keyword, and skills match percentages. Matched, missing, and extra skills are highlighted.
+
 <p align="center">
-  <img src="screenshots/skills.png" alt="Skills Breakdown" width="800"/>
+  <img src="screenshots/03_analysis_results.png" alt="Analysis Results and Skills" width="800"/>
+</p>
+
+### Top Keywords & Improvement Suggestions
+Top job description keywords with TF-IDF scores, strengths, and actionable improvement suggestions.
+
+<p align="center">
+  <img src="screenshots/04_keywords_suggestions.png" alt="Keywords and Suggestions" width="800"/>
+</p>
+
+### Experience & Education Matching
+Experience years detection and education qualification alignment check.
+
+<p align="center">
+  <img src="screenshots/05_experience_education.png" alt="Experience and Education" width="800"/>
 </p>
 
 ---
@@ -79,7 +99,7 @@ The app computes a weighted **Overall Match Score** using:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-resume-screener.git
+   git clone https://github.com/Prachi-hub01/ai-resume-screener.git
    cd ai-resume-screener
    ```
 
@@ -104,7 +124,6 @@ ai-resume-screener/
 ├── app.py                  # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── screenshots/            # App UI screenshots
-├── sample_resume.pdf       # Sample resume for testing
 └── README.md               # This file
 ```
 
